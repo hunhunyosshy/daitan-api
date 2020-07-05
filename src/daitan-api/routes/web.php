@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('pdf','PDFController@index');
+Route::get('hello','PdfHelloController@index');
